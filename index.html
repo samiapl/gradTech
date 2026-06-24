@@ -242,6 +242,13 @@
     }
 }
 
+
+@media(max-width:768px){
+  .container div[style*="grid-template-columns:1fr 1fr"]{
+    grid-template-columns:1fr !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -602,6 +609,7 @@
 
 <!-- FOOTER -->
 
+
 <!-- UAE OFFICE ADDRESS -->
 <section style="background:#F8FAF8;padding:60px 0;border-top:1px solid #D9E8DC;">
   <div class="container">
@@ -610,19 +618,42 @@
       <p>Meet our team for professional guidance and qualification support.</p>
     </div>
 
-    <div style="max-width:800px;margin:0 auto;background:#FFFFFF;border:1px solid #D9E8DC;border-radius:20px;padding:35px;box-shadow:0 20px 50px -20px rgba(14,32,68,0.15);">
-      <div style="display:flex;align-items:flex-start;gap:15px;">
-        <div style="font-size:28px;">📍</div>
+    <div style="max-width:900px;margin:0 auto;background:#FFFFFF;border:1px solid #D9E8DC;border-radius:20px;padding:40px;box-shadow:0 20px 50px -20px rgba(14,32,68,0.15);">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;">
+
         <div>
-          <h3 style="margin-bottom:12px;color:#0E2044;">IAPL Professional Learning</h3>
-          <p style="color:#4A6055;line-height:1.8;margin-bottom:20px;">
-            City Tower 2, Biz City Business Center, 14th Floor, Sheikh Zayed Road, Dubai, United Arab Emirates</p>
+          <h3 style="margin-bottom:20px;color:#0E2044;">📍 IAPL Professional Learning</h3>
+          <p style="color:#4A6055;line-height:1.9;">
+            City Tower 2<br>
+            Biz City Business Center, 14th Floor<br>
+            Sheikh Zayed Road<br>
+            Dubai, United Arab Emirates
+          </p>
+
           <a href="https://maps.app.goo.gl/B1g5BWsNBFSM1HWW9"
              target="_blank"
-             style="display:inline-flex;align-items:center;gap:8px;background:#0E2044;color:white;text-decoration:none;padding:14px 22px;border-radius:10px;font-weight:700;">
+             style="display:inline-block;margin-top:20px;background:#0E2044;color:white;text-decoration:none;padding:14px 24px;border-radius:10px;font-weight:700;">
              View on Google Maps →
           </a>
         </div>
+
+        <div>
+          <div style="background:#F8FAF8;border:1px solid #D9E8DC;border-radius:14px;padding:20px;margin-bottom:15px;">
+            <h4 style="color:#0E2044;margin-bottom:8px;">🌐 Website</h4>
+            <a href="https://www.iapl.institute" target="_blank" style="color:#1B7F3B;font-weight:600;">www.iapl.institute</a>
+          </div>
+
+          <div style="background:#F8FAF8;border:1px solid #D9E8DC;border-radius:14px;padding:20px;margin-bottom:15px;">
+            <h4 style="color:#0E2044;margin-bottom:8px;">📧 Email</h4>
+            <a href="mailto:saaddam.h@iapl.institute" style="color:#1B7F3B;font-weight:600;">saaddam.h@iapl.institute</a>
+          </div>
+
+          <div style="background:#F8FAF8;border:1px solid #D9E8DC;border-radius:14px;padding:20px;">
+            <h4 style="color:#0E2044;margin-bottom:8px;">📱 WhatsApp</h4>
+            <a href="https://wa.me/919898625517" target="_blank" style="color:#1B7F3B;font-weight:600;">+91 98986 25517</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -646,10 +677,12 @@
 
     <div style="margin-top:15px;text-align:center;">
       <strong>IAPL Professional Learning</strong><br>
-      City Tower 2, Biz City Business Center, 14th Floor, Sheikh Zayed Road, Dubai, UAE<br>
+      City Tower 2, Biz City Business Center, 14th Floor<br>
+      Sheikh Zayed Road, Dubai, UAE<br>
       Website: <a href="https://www.iapl.institute" target="_blank" rel="noopener noreferrer">www.iapl.institute</a>
     </div>
 </footer>
+
 
 <!-- STICKY -->
 <div class="sticky-cta">
